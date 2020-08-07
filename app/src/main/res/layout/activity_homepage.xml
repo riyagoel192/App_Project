@@ -41,7 +41,7 @@
         <ImageView
             android:layout_width="111dp"
             android:layout_height="112dp"
-            android:layout_marginLeft="12sp"
+            android:layout_marginLeft="8sp"
             android:src="@drawable/mobile" />
 
         <ImageView
@@ -101,7 +101,7 @@
         <ImageView
             android:layout_width="114dp"
             android:layout_height="128dp"
-            android:layout_marginLeft="12sp"
+            android:layout_marginLeft="10sp"
             android:src="@drawable/home_essential" />
 
         <ImageView
@@ -153,4 +153,5 @@
     </LinearLayout>
 
 </LinearLayout>
+
 </ScrollView>
