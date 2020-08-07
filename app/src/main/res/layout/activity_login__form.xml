@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_Form">
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="@color/colorAccent1"
+        android:hint="Enter email" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="@color/colorAccent1"
+        android:hint="Enter password" />
+
+
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:text="Login"
+        android:id="@+id/login"
+        android:textColor="@color/background"
+        android:textSize="20sp"
+        android:background="@drawable/button_rounded"
+        android:layout_height="65dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Not created an account yet?"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/button_rounded"
+        android:text="Sign Up"
+        android:textColor="@color/background"
+        android:textSize="20sp" />
+
+</LinearLayout>

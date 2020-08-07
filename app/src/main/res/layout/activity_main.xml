@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:text="AP Electronic Services" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="25sp"
+        android:src="@drawable/adv"
+        android:layout_height="410dp" />
+    <Button
+        android:id="@+id/start"
+        android:layout_width="290dp"
+        android:layout_marginLeft="60sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/background"
+        android:textSize="20sp"
+        android:background="@drawable/button_rounded"
+        android:layout_marginTop="35sp"
+        android:text="Get Started" />
+
+</LinearLayout>
+
