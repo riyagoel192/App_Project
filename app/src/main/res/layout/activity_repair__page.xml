@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Repair_Page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/fname"-->
+        <!--            android:textStyle="bold"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:ems="10"-->
+        <!--            android:focusable="true"-->
+        <!--            android:focusableInTouchMode="true"-->
+        <!--            android:inputType="text"-->
+        <!--            android:layout_margin="30dp"-->
+        <!--            android:hint="Enter first name"-->
+        <!--            />-->
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:id="@+id/Spinner2"
+            android:layout_margin="30dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/name"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:inputType="text"
+            android:layout_margin="30dp"
+            android:hint="Enter your name"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Enter email address" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Enter phone number" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:hint="Enter full address" />
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="22dp"
+            android:text="Repair"
+            android:id="@+id/repair"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:background="@drawable/button_rounded"
+            android:layout_height="65dp" />
+
+    </LinearLayout>
+
+</ScrollView>

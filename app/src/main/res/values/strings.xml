@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Demo App</string>
+    <string name="type_product">Choose Product Type</string>
+
+    <string-array name="product_array">
+        <item>Electronics</item>
+        <item>Grocery items</item>
+        <item>Clothing</item>
+        <item>Footwear</item>
+    </string-array>
+
+    <string-array name="repair_array">
+        <item>A/C</item>
+        <item>TV</item>
+        <item>Car</item>
+        <item>Cooler</item>
+        <item>Geyser</item>
+        <item>Motor</item>
+    </string-array>
+
 </resources>
