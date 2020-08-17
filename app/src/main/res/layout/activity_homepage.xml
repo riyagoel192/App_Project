@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="@drawable/new_bg"
     tools:context=".Homepage">
 
 
@@ -32,17 +33,27 @@
 <!--        android:src="@drawable/poster"-->
 <!--        android:layout_height="250dp" />-->
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Choose one of your favourite services here. So let's get started"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="15dp"
         android:orientation="horizontal">
 
         <ImageView
             android:layout_width="111dp"
             android:layout_height="112dp"
             android:layout_marginLeft="48sp"
-            android:src="@drawable/mobile" />
+            android:id="@+id/bs"
+            android:src="@drawable/buy_sell" />
 
 <!--        <ImageView-->
 <!--            android:layout_width="113dp"-->
@@ -52,9 +63,10 @@
 
         <ImageView
             android:layout_width="118dp"
+            android:id="@+id/rm"
             android:layout_height="match_parent"
             android:layout_marginLeft="61sp"
-            android:src="@drawable/tv" />
+            android:src="@drawable/repair" />
 
     </LinearLayout>
 
@@ -80,7 +92,7 @@
             android:textSize="20sp"
             android:id="@+id/repair"
             android:textStyle="bold"
-            android:layout_marginLeft="30sp"
+            android:layout_marginLeft="40sp"
             android:layout_height="wrap_content" />
 
 <!--        <TextView-->
@@ -103,14 +115,16 @@
         <ImageView
             android:layout_width="114dp"
             android:layout_height="128dp"
+            android:id="@+id/f"
             android:layout_marginLeft="53sp"
-            android:src="@drawable/home_essential" />
+            android:src="@drawable/food" />
 
         <ImageView
             android:layout_width="118dp"
             android:layout_height="match_parent"
+            android:id="@+id/edu"
             android:layout_marginLeft="64sp"
-            android:src="@drawable/furniture" />
+            android:src="@drawable/education" />
 
 <!--        <ImageView-->
 <!--            android:layout_width="111dp"-->
@@ -155,6 +169,15 @@
 <!--            android:textStyle="bold" />-->
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_marginTop="97dp"
+        android:scrollX="0dp"
+        android:scrollY="0dp"
+        android:layout_height="60dp">
+    </TextView>
 
 </LinearLayout>
 

@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/buysell_bg"
+    android:alpha="0.6"
     tools:context=".Mobile_Page">
 
     <LinearLayout
@@ -12,24 +14,25 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
+
         <Button
             android:layout_width="wrap_content"
-            android:layout_marginTop="300dp"
+            android:layout_marginTop="320dp"
             android:id="@+id/buy"
-            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="65dp"
             android:text="BUY"
             android:layout_height="wrap_content" />
 
         <Button
             android:layout_width="wrap_content"
-            android:layout_marginTop="300dp"
+            android:layout_marginTop="320dp"
             android:layout_marginLeft="90dp"
             android:text="SELL"
+            android:textStyle="bold"
             android:id="@+id/sell"
             android:layout_height="wrap_content" />
 
     </LinearLayout>
-
-
 
 </ScrollView>

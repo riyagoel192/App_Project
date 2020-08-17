@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/template"
     android:layout_height="match_parent"
     tools:context=".Sell_Form">
 
@@ -37,6 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/black"
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:inputType="text"
@@ -51,6 +53,7 @@
             android:layout_margin="30dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/black"
             android:inputType="text"
             android:hint="Enter product description" />
 
@@ -61,6 +64,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:ems="10"
+            android:textColorHint="@color/black"
             android:inputType="text"
             android:hint="Enter amount" />
 
@@ -70,6 +74,7 @@
             android:layout_margin="30dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/black"
             android:textStyle="bold"
             android:inputType="text"
             android:hint="Enter phone number" />

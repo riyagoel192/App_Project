@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/template"
     tools:context=".Signup_Form">
 
  <LinearLayout
@@ -15,6 +16,7 @@
      <EditText
          android:id="@+id/fname"
          android:textStyle="bold"
+         android:textColorHint="@color/black"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:ems="10"
@@ -28,6 +30,7 @@
      <EditText
          android:id="@+id/lname"
          android:textStyle="bold"
+         android:textColorHint="@color/black"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:ems="10"
@@ -41,6 +44,7 @@
      <EditText
          android:id="@+id/email"
          android:textStyle="bold"
+         android:textColorHint="@color/black"
          android:layout_width="wrap_content"
          android:layout_margin="30dp"
          android:layout_height="wrap_content"
@@ -54,6 +58,7 @@
          android:layout_margin="30dp"
          android:layout_height="wrap_content"
          android:textStyle="bold"
+         android:textColorHint="@color/black"
          android:ems="10"
          android:inputType="text"
          android:hint="Enter password" />
@@ -66,6 +71,7 @@
          android:ems="10"
          android:textStyle="bold"
          android:inputType="text"
+         android:textColorHint="@color/black"
          android:hint="Enter phone number" />
 
      <RadioGroup
@@ -77,6 +83,7 @@
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:text="Gender: "
+             android:textColor="@color/black"
              android:textStyle="bold"
              android:textSize="20dp"
              android:layout_marginLeft="20dp"

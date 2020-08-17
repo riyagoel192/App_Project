@@ -3,6 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/go_login"
+    android:alpha="0.9"
     android:layout_height="match_parent"
     tools:context=".Member">
 
@@ -27,6 +29,7 @@
             android:layout_width="wrap_content"
             android:text="YES"
             android:id="@+id/yes"
+            android:textStyle="bold"
             android:layout_marginLeft="70dp"
             android:layout_height="wrap_content"/>
 
@@ -34,7 +37,8 @@
             android:layout_width="wrap_content"
             android:text="NO"
             android:id="@+id/no"
-            android:layout_marginLeft="80dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="100dp"
             android:layout_height="wrap_content"/>
 
         </LinearLayout>
