@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Member"></activity>
+        <activity android:name=".Tablet"></activity>
+        <activity android:name=".Jalebi"></activity>
+        <activity android:name=".Rajbhog" />
+        <activity android:name=".Shahi" />
+        <activity android:name=".Rasmalai" />
+        <activity android:name=".Ladoo" />
+        <activity android:name=".Description" />
+        <activity android:name=".Food_Page" />
+        <activity android:name=".Member" />
         <activity android:name=".Repair_Page" />
         <activity android:name=".Sell_Form" />
         <activity android:name=".Newpage" />

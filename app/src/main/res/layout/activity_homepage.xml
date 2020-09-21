@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="280dp"
         android:layout_marginTop="-65dp"
-        android:text="Login" />
+        android:text="लॉग इन" />
 
 <!--    <ImageView-->
 <!--        android:layout_width="match_parent"-->
@@ -35,7 +35,7 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:text="Choose one of your favourite services here. So let's get started"
+        android:text="यहां अपनी पसंदीदा सेवाओं में से एक चुनें। तो चलो शुरू करते है"
         android:textSize="25dp"
         android:textStyle="bold"
         android:textAlignment="center"
@@ -50,10 +50,10 @@
 
         <ImageView
             android:layout_width="111dp"
-            android:layout_height="112dp"
+            android:layout_height="120dp"
             android:layout_marginLeft="48sp"
             android:id="@+id/bs"
-            android:src="@drawable/buy_sell" />
+            android:src="@drawable/lady" />
 
 <!--        <ImageView-->
 <!--            android:layout_width="113dp"-->
@@ -77,7 +77,7 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:text="Buy and Sell"
+            android:text="खरीदो और बेचो"
             android:textStyle="bold"
             android:id="@+id/buysell"
             android:layout_marginTop="5dp"
@@ -87,7 +87,8 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:text="Repair and Maintain"
+            android:text="
+मरम्मत और रखरखाव"
             android:layout_marginTop="5dp"
             android:textSize="20sp"
             android:id="@+id/repair"
@@ -117,7 +118,7 @@
             android:layout_height="128dp"
             android:id="@+id/f"
             android:layout_marginLeft="53sp"
-            android:src="@drawable/food" />
+            android:src="@drawable/desert" />
 
         <ImageView
             android:layout_width="118dp"
@@ -145,7 +146,7 @@
             android:layout_marginLeft="90sp"
             android:id="@+id/food"
             android:layout_marginTop="5dp"
-            android:text="Food"
+            android:text="खाना"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -155,7 +156,7 @@
             android:layout_marginLeft="105sp"
             android:id="@+id/education"
             android:layout_marginTop="5dp"
-            android:text="Education"
+            android:text="शिक्षा"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -169,15 +170,6 @@
 <!--            android:textStyle="bold" />-->
 
     </LinearLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:background="@color/black"
-        android:layout_marginTop="97dp"
-        android:scrollX="0dp"
-        android:scrollY="0dp"
-        android:layout_height="60dp">
-    </TextView>
 
 </LinearLayout>
 

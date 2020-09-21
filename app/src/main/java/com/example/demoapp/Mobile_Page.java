@@ -22,7 +22,7 @@ public class Mobile_Page extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Redirecting to Homepage", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "मुखपृष्ठ पर पुनर्निर्देशित करना", Toast.LENGTH_SHORT).show();
                 Intent i= new Intent(getApplicationContext(),Newpage.class);
                 startActivity(i);
             }
@@ -31,7 +31,7 @@ public class Mobile_Page extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Item added for Sale", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "आइटम बिक्री के लिए जोड़ा गया", Toast.LENGTH_SHORT).show();
                 Intent i= new Intent(getApplicationContext(),Sell_Form.class);
                 startActivity(i);
             }

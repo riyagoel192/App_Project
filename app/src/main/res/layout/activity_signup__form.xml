@@ -24,7 +24,7 @@
          android:focusableInTouchMode="true"
          android:inputType="text"
          android:layout_margin="30dp"
-         android:hint="Enter first name"
+         android:hint="पहला नाम दर्ज करें"
          />
 
      <EditText
@@ -38,7 +38,7 @@
          android:focusableInTouchMode="true"
          android:inputType="text"
          android:layout_margin="30dp"
-         android:hint="Enter last name"
+         android:hint="अंतिम नाम दर्ज करो"
          />
 
      <EditText
@@ -50,7 +50,7 @@
          android:layout_height="wrap_content"
          android:ems="10"
          android:inputType="text"
-         android:hint="Enter email" />
+         android:hint="ईमेल दर्ज करें" />
 
      <EditText
          android:id="@+id/password"
@@ -61,7 +61,7 @@
          android:textColorHint="@color/black"
          android:ems="10"
          android:inputType="text"
-         android:hint="Enter password" />
+         android:hint="पास वर्ड दर्ज करें" />
 
      <EditText
          android:id="@+id/phone"
@@ -72,7 +72,7 @@
          android:textStyle="bold"
          android:inputType="text"
          android:textColorHint="@color/black"
-         android:hint="Enter phone number" />
+         android:hint="फोन नंबर दर्ज" />
 
      <RadioGroup
          android:layout_width="match_parent"
@@ -82,7 +82,7 @@
          <TextView
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-             android:text="Gender: "
+             android:text="लिंग: "
              android:textColor="@color/black"
              android:textStyle="bold"
              android:textSize="20dp"
@@ -91,7 +91,7 @@
 
          <RadioButton
              android:layout_width="wrap_content"
-             android:text="Male"
+             android:text="नर"
              android:layout_marginTop="10dp"
              android:textSize="20sp"
              android:textStyle="bold"
@@ -100,7 +100,7 @@
 
          <RadioButton
              android:layout_width="wrap_content"
-             android:text="Female"
+             android:text="महिला"
              android:layout_marginTop="10dp"
              android:textStyle="bold"
              android:textSize="20sp"
@@ -113,7 +113,7 @@
          android:layout_width="290dp"
          android:layout_marginLeft="60dp"
          android:layout_marginTop="22dp"
-         android:text="Register"
+         android:text="रजिस्टर करें"
          android:id="@+id/register"
          android:textColor="@color/background"
          android:textSize="20sp"

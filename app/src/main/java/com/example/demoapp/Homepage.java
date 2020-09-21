@@ -54,5 +54,13 @@ public class Homepage extends AppCompatActivity {
             }
         });
 
+        i3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i= new Intent(getApplicationContext(),Food_Page.class);
+                startActivity(i);
+            }
+        });
+
     }
 }

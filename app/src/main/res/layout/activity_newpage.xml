@@ -32,6 +32,7 @@
             <ImageView
                 android:layout_width="111dp"
                 android:layout_height="112dp"
+                android:id="@+id/i1"
                 android:layout_marginLeft="10sp"
                 android:src="@drawable/mobile" />
 
@@ -39,12 +40,14 @@
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="20sp"
+                android:id="@+id/i2"
                 android:src="@drawable/electronics" />
 
             <ImageView
                 android:layout_width="118dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="18sp"
+                android:id="@+id/i3"
                 android:src="@drawable/tv" />
 
         </LinearLayout>
@@ -56,7 +59,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:text="Mobiles and tablets"
+                android:text="मोबाइल और टैबलेट"
                 android:textStyle="bold"
                 android:id="@+id/mobile"
                 android:layout_marginTop="5dp"
@@ -66,22 +69,22 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:text="Electronics"
+                android:text="इलेक्ट्रानिक्स"
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 android:id="@+id/electronics"
-                android:layout_marginLeft="20sp"
+                android:layout_marginLeft="40sp"
                 android:layout_height="wrap_content" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:text="TV and Appliances"
+                        android:text="टीवी और उपकरण"
                         android:layout_marginTop="5dp"
                         android:textStyle="bold"
                         android:textSize="15sp"
                         android:id="@+id/tv"
-                        android:layout_marginLeft="20sp"
+                        android:layout_marginLeft="35sp"
                         android:layout_height="wrap_content" />
 
         </LinearLayout>
@@ -95,6 +98,7 @@
             <ImageView
                 android:layout_width="111dp"
                 android:layout_height="112dp"
+                android:id="@+id/i4"
                 android:layout_marginLeft="10sp"
                 android:src="@drawable/home_essential" />
 
@@ -102,12 +106,14 @@
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="20sp"
+                android:id="@+id/i5"
                 android:src="@drawable/furniture" />
 
             <ImageView
                 android:layout_width="118dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="18sp"
+                android:id="@+id/i6"
                 android:src="@drawable/fashion" />
 
         </LinearLayout>
@@ -119,7 +125,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:text="Home Essentials"
+                android:text="घर का जरूरी सामान"
                 android:textStyle="bold"
                 android:id="@+id/home"
                 android:layout_marginTop="5dp"
@@ -129,7 +135,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:text="Furniture"
+                android:text="फर्नीचर"
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
                 android:textStyle="bold"
@@ -139,12 +145,12 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:text="Fashion"
+                android:text="फैशन"
                 android:layout_marginTop="5dp"
                 android:textStyle="bold"
                 android:textSize="15sp"
                 android:id="@+id/fashion"
-                android:layout_marginLeft="70sp"
+                android:layout_marginLeft="80sp"
                 android:layout_height="wrap_content" />
 
         </LinearLayout>

@@ -18,7 +18,7 @@
             android:layout_margin="80dp"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:text="Do you want to have a membership regarding this service ?"
+            android:text="क्या आप इस सेवा के बारे में सदस्यता लेना चाहते हैं?"
             android:layout_height="wrap_content" />
 
         <LinearLayout
@@ -27,7 +27,7 @@
 
         <Button
             android:layout_width="wrap_content"
-            android:text="YES"
+            android:text="हाँ"
             android:id="@+id/yes"
             android:textStyle="bold"
             android:layout_marginLeft="70dp"
@@ -35,7 +35,7 @@
 
         <Button
             android:layout_width="wrap_content"
-            android:text="NO"
+            android:text="नहीं"
             android:id="@+id/no"
             android:textStyle="bold"
             android:layout_marginLeft="100dp"

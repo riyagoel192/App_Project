@@ -21,14 +21,14 @@
             android:id="@+id/buy"
             android:textStyle="bold"
             android:layout_marginLeft="65dp"
-            android:text="BUY"
+            android:text="खरीदें"
             android:layout_height="wrap_content" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_marginTop="320dp"
             android:layout_marginLeft="90dp"
-            android:text="SELL"
+            android:text="बेचना"
             android:textStyle="bold"
             android:id="@+id/sell"
             android:layout_height="wrap_content" />

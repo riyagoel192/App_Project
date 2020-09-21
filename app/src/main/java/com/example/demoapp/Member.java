@@ -24,14 +24,14 @@ public class Member extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Membership Added", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "सदस्यता जोड़ी गई", Toast.LENGTH_LONG).show();
             }
         });
 
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Your request has been postponed", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "आपका अनुरोध स्थगित कर दिया गया है", Toast.LENGTH_LONG).show();
             }
         });
     }

@@ -33,12 +33,12 @@ public class Login_Form extends AppCompatActivity {
             public void onClick(View view) {
                 if (e1.getText().toString().equals("admin") &&
                         e2.getText().toString().equals("admin")) {
-                    Toast.makeText(getApplicationContext(), "Redirecting to Homepage", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "मुखपृष्ठ पर पुनर्निर्देशित करना", Toast.LENGTH_SHORT).show();
                     Intent i= new Intent(getApplicationContext(),Homepage.class);
                     startActivity(i);
 
                 } else {
-                    Toast.makeText(getApplicationContext(), "Wrong Credentials", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "गलत प्रत्यक्ष पत्र", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -46,7 +46,7 @@ public class Login_Form extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Redirecting to Signup page", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "पृष्ठ साइन अप करने के लिए पुनर्निर्देशित करना", Toast.LENGTH_SHORT).show();
                 Intent i= new Intent(getApplicationContext(),Signup_Form.class);
                 startActivity(i);
             }

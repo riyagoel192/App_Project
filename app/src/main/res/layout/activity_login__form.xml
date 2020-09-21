@@ -22,7 +22,7 @@
         android:ems="10"
         android:inputType="text"
         android:textColorHint="@color/black"
-        android:hint="Enter email" />
+        android:hint="ईमेल दर्ज करें" />
 
     <EditText
         android:id="@+id/password"
@@ -32,13 +32,13 @@
         android:ems="10"
         android:inputType="text"
         android:textColorHint="@color/black"
-        android:hint="Enter password" />
+        android:hint="पास वर्ड दर्ज करें" />
 
     <Button
         android:layout_width="290dp"
         android:layout_marginLeft="60dp"
         android:layout_marginTop="10dp"
-        android:text="Login"
+        android:text="लॉग इन"
         android:id="@+id/login"
         android:textColor="@color/background"
         android:textSize="20sp"
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:textStyle="bold"
-        android:text="Not created an account yet?"
+        android:text="अभी तक खाता नहीं बनाया?"
         android:textAlignment="center"
         android:textSize="20dp" />
 
@@ -61,7 +61,7 @@
         android:layout_height="65dp"
         android:layout_marginLeft="60dp"
         android:background="@drawable/button_rounded"
-        android:text="Sign Up"
+        android:text="साइन अप"
         android:textColor="@color/background"
         android:textSize="20sp" />
 

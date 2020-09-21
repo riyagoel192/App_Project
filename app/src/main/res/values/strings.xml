@@ -3,19 +3,19 @@
     <string name="type_product">Choose Product Type</string>
 
     <string-array name="product_array">
-        <item>Electronics</item>
-        <item>Grocery items</item>
-        <item>Clothing</item>
-        <item>Footwear</item>
+        <item>इलेक्ट्रानिक्स</item>
+        <item>किराने का सामान</item>
+        <item>कपड़े</item>
+        <item>जूते</item>
     </string-array>
 
     <string-array name="repair_array">
-        <item>A/C</item>
-        <item>TV</item>
-        <item>Car</item>
-        <item>Cooler</item>
-        <item>Geyser</item>
-        <item>Motor</item>
+        <item>एसी</item>
+        <item>टीवी</item>
+        <item>गाड़ी</item>
+        <item>कूलर</item>
+        <item>गरम पानी का झरना</item>
+        <item>मोटर</item>
     </string-array>
 
 </resources>

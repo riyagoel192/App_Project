@@ -41,7 +41,7 @@
             android:focusableInTouchMode="true"
             android:inputType="text"
             android:layout_margin="30dp"
-            android:hint="Enter your name"
+            android:hint="अपना नाम दर्ज करें"
             />
 
         <EditText
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:hint="Enter email address" />
+            android:hint="ईमेल पता दर्ज" />
 
         <EditText
             android:id="@+id/phone"
@@ -62,7 +62,7 @@
             android:textStyle="bold"
             android:ems="10"
             android:inputType="text"
-            android:hint="Enter phone number" />
+            android:hint="फोन नंबर दर्ज" />
 
         <EditText
             android:id="@+id/address"
@@ -72,13 +72,13 @@
             android:ems="10"
             android:textStyle="bold"
             android:inputType="text"
-            android:hint="Enter full address" />
+            android:hint="पूरा पता दर्ज करें" />
 
         <Button
             android:layout_width="290dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="22dp"
-            android:text="Repair"
+            android:text="मरम्मत"
             android:id="@+id/repair"
             android:textColor="@color/background"
             android:textSize="20sp"
